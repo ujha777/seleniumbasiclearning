@@ -41,6 +41,18 @@ public class JavaSriptExecuterDemo {
 		}
 		
 		
+		List<WebElement> totalrows = driver.findElements(By.xpath("//fieldset/table/tbody/tr"));
+		System.out.println(totalrows.size());
+		 List<WebElement> totalcoloumn = driver.findElements(By.xpath("//fieldset/table/tbody/tr/th"));
+		System.out.println(totalcoloumn.size());
+		
+		List<WebElement> values = driver.findElements(By.xpath("//fieldset/table/tbody/tr[2]/td"));
+		int count1= driver.findElements(By.xpath("//fieldset/table/tbody/tr[2]/td")).size();
+		for (int i = 0; i < count1; i++) {
+		System.out.println(values.get(i).getText());
+		}
+		
+		
 	}
 
 }
