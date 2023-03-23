@@ -88,5 +88,11 @@
 	<classpathentry kind="lib" path="F:/2023_Software/selenium-java-4.7.2/selenium-safari-driver-4.7.2-sources.jar"/>
 	<classpathentry kind="lib" path="F:/2023_Software/selenium-java-4.7.2/selenium-support-4.7.2.jar"/>
 	<classpathentry kind="lib" path="F:/2023_Software/selenium-java-4.7.2/selenium-support-4.7.2-sources.jar"/>
+	<classpathentry kind="lib" path="F:/commons-io-2.11.0-bin/commons-io-2.11.0/commons-io-2.11.0.jar"/>
+	<classpathentry kind="lib" path="F:/commons-io-2.11.0-bin/commons-io-2.11.0/commons-io-2.11.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="F:/commons-io-2.11.0-bin/commons-io-2.11.0/commons-io-2.11.0-sources.jar"/>
+	<classpathentry kind="lib" path="F:/commons-io-2.11.0-bin/commons-io-2.11.0/commons-io-2.11.0-tests.jar"/>
+	<classpathentry kind="lib" path="F:/commons-io-2.11.0-bin/commons-io-2.11.0/commons-io-2.11.0-test-sources.jar"/>
+	<classpathentry kind="lib" path="F:/testng-7.7.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
