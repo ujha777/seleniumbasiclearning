@@ -1,44 +1,123 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="3" total="8" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[Hi]]>
-    </line>
-    <line>
-      <![CDATA[Remo]]>
-    </line>
-    <line>
-      <![CDATA[API_Home]]>
-    </line>
-    <line>
       <![CDATA[API_Car]]>
+    </line>
+    <line>
+      <![CDATA[firstusername]]>
+    </line>
+    <line>
+      <![CDATA[fisrtpassword]]>
+    </line>
+    <line>
+      <![CDATA[secondusername]]>
+    </line>
+    <line>
+      <![CDATA[secondpassword]]>
+    </line>
+    <line>
+      <![CDATA[thirdusername]]>
+    </line>
+    <line>
+      <![CDATA[thirdpassword]]>
+    </line>
+    <line>
+      <![CDATA[Mobile_Car]]>
     </line>
     <line>
       <![CDATA[Web_Car]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-03-26T18:55:08 IST" name="Suite" finished-at="2023-03-26T18:55:08 IST" duration-ms="140">
+  <suite started-at="2023-03-29T23:19:24 IST" name="Default suite" finished-at="2023-03-29T23:19:24 IST" duration-ms="287">
     <groups>
+      <group name="Smoke">
+        <method signature="CarLoan.APILoginCarLoan()[pri:0, instance:test.CarLoan@635eaaf1]" name="APILoginCarLoan" class="test.CarLoan"/>
+      </group> <!-- Smoke -->
     </groups>
-    <test started-at="2023-03-26T18:55:08 IST" name="Test" finished-at="2023-03-26T18:55:08 IST" duration-ms="140">
-      <class name="test.Remo">
-        <test-method signature="m2()[pri:0, instance:test.Remo@1ddf84b8]" started-at="2023-03-26T18:55:08 IST" name="m2" finished-at="2023-03-26T18:55:08 IST" duration-ms="4" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Remo]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- m2 -->
-      </class> <!-- test.Remo -->
+    <test started-at="2023-03-29T23:19:24 IST" name="Default test" finished-at="2023-03-29T23:19:24 IST" duration-ms="287">
       <class name="test.CarLoan">
-        <test-method signature="APILoginCarLoan()[pri:0, instance:test.CarLoan@7a69b07]" started-at="2023-03-26T18:55:08 IST" name="APILoginCarLoan" finished-at="2023-03-26T18:55:08 IST" duration-ms="4" status="PASS">
+        <test-method signature="APILoginCarLoan()[pri:0, instance:test.CarLoan@635eaaf1]" started-at="2023-03-29T23:19:24 IST" name="APILoginCarLoan" finished-at="2023-03-29T23:19:24 IST" duration-ms="33" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[API_Car]]>
             </line>
           </reporter-output>
         </test-method> <!-- APILoginCarLoan -->
-        <test-method signature="WebLoginCarLoan()[pri:0, instance:test.CarLoan@7a69b07]" started-at="2023-03-26T18:55:08 IST" name="WebLoginCarLoan" finished-at="2023-03-26T18:55:08 IST" duration-ms="4" status="PASS">
+        <test-method signature="CarDhekhoLogin(java.lang.String,java.lang.String)[pri:0, instance:test.CarLoan@635eaaf1]" started-at="2023-03-29T23:19:24 IST" name="CarDhekhoLogin" data-provider="getData" finished-at="2023-03-29T23:19:24 IST" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[fisrtpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[firstusername]]>
+            </line>
+            <line>
+              <![CDATA[fisrtpassword]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CarDhekhoLogin -->
+        <test-method signature="CarDhekhoLogin(java.lang.String,java.lang.String)[pri:0, instance:test.CarLoan@635eaaf1]" started-at="2023-03-29T23:19:24 IST" name="CarDhekhoLogin" data-provider="getData" finished-at="2023-03-29T23:19:24 IST" duration-ms="12" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[secondusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secondpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[secondusername]]>
+            </line>
+            <line>
+              <![CDATA[secondpassword]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CarDhekhoLogin -->
+        <test-method signature="CarDhekhoLogin(java.lang.String,java.lang.String)[pri:0, instance:test.CarLoan@635eaaf1]" started-at="2023-03-29T23:19:24 IST" name="CarDhekhoLogin" data-provider="getData" finished-at="2023-03-29T23:19:24 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thirdusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[thirdpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[thirdusername]]>
+            </line>
+            <line>
+              <![CDATA[thirdpassword]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CarDhekhoLogin -->
+        <test-method signature="MobileLoginCarLoan()[pri:0, instance:test.CarLoan@635eaaf1]" started-at="2023-03-29T23:19:24 IST" name="MobileLoginCarLoan" finished-at="2023-03-29T23:19:24 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Mobile_Car]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- MobileLoginCarLoan -->
+        <test-method signature="WebLoginCarLoan()[pri:0, instance:test.CarLoan@635eaaf1]" started-at="2023-03-29T23:19:24 IST" name="WebLoginCarLoan" finished-at="2023-03-29T23:19:24 IST" duration-ms="32" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Web_Car]]>
@@ -46,24 +125,6 @@
           </reporter-output>
         </test-method> <!-- WebLoginCarLoan -->
       </class> <!-- test.CarLoan -->
-      <class name="test.HomeLoan">
-        <test-method signature="APILoginHomeLoan()[pri:0, instance:test.HomeLoan@1139b2f3]" started-at="2023-03-26T18:55:08 IST" name="APILoginHomeLoan" finished-at="2023-03-26T18:55:08 IST" duration-ms="4" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[API_Home]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- APILoginHomeLoan -->
-      </class> <!-- test.HomeLoan -->
-      <class name="test.Demo">
-        <test-method signature="m1()[pri:0, instance:test.Demo@63355449]" started-at="2023-03-26T18:55:08 IST" name="m1" finished-at="2023-03-26T18:55:08 IST" duration-ms="20" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Hi]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- m1 -->
-      </class> <!-- test.Demo -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
