@@ -1,5 +1,6 @@
 package test;
 
+import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
@@ -12,5 +13,6 @@ public class Demo {
 	public void m2()
 	{
 		Reporter.log("Hello",true);
+		Assert.assertTrue(false);
 	}
 }

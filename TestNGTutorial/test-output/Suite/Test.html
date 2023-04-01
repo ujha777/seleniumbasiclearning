@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>10/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>9/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Mar 29 23:12:30 IST 2023</td>
+<td>Started on:</td><td>Sat Apr 01 17:41:01 IST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (350 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (319 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,54 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test.Demo.m2()'><b>m2</b><br>Test class: test.Demo<br/>
+<a href="#Output-1724634736" onClick='toggleBox("Output-1724634736", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1724634736" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1724634736">
+Hello<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at test.Demo.m2(Demo.java:16)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1724634736", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1724634736'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at test.Demo.m2(Demo.java:16)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>0</td>
+<td>test.Demo@72f926e6</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -76,128 +124,116 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='test.HomeLoan.WebLoginHomeLoan()'><b>WebLoginHomeLoan</b><br>Test class: test.HomeLoan<br/>
-<a href="#Output-1233705144" onClick='toggleBox("Output-1233705144", this, "Show output", "Hide output");'>Show output</a>
+<td title='test.HomeLoan.WebLoginHomeLoan()'><b>WebLoginHomeLoan</b><br>Test class: test.HomeLoan<br>Parameters: qaacademy.com<br/>
+<a href="#Output-339796448" onClick='toggleBox("Output-339796448", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1233705144" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1233705144">
-Web_Home<br/>
+<a href="#Output-339796448" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-339796448">
+qaacademy.com<br/>
 </div>
 </td>
 <td></td>
 <td>0</td>
-<td>test.HomeLoan@3c407114</td></tr>
+<td>test.HomeLoan@35ef1869</td></tr>
 <tr>
-<td title='test.CarLoan.CarDhekhoLogin()'><b>CarDhekhoLogin</b><br>Test class: test.CarLoan<br>Parameters: null, null<br/>
-<a href="#Output-525968792" onClick='toggleBox("Output-525968792", this, "Show output", "Hide output");'>Show output</a>
+<td title='test.Remo.m2()'><b>m2</b><br>Test class: test.Remo<br/>
+<a href="#Output-133161769" onClick='toggleBox("Output-133161769", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-525968792" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-525968792">
-null<br/>
-null<br/>
+<a href="#Output-133161769" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-133161769">
+Remo<br/>
 </div>
 </td>
 <td></td>
 <td>0</td>
-<td>test.CarLoan@35ef1869</td></tr>
+<td>test.Remo@41fbdac4</td></tr>
 <tr>
 <td title='test.CarLoan.APILoginCarLoan()'><b>APILoginCarLoan</b><br>Test class: test.CarLoan<br/>
-<a href="#Output-1977310713" onClick='toggleBox("Output-1977310713", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1128619939" onClick='toggleBox("Output-1128619939", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1977310713" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1977310713">
+<a href="#Output-1128619939" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1128619939">
 API_Car<br/>
 </div>
 </td>
 <td></td>
 <td>0</td>
-<td>test.CarLoan@35ef1869</td></tr>
+<td>test.CarLoan@c33b74f</td></tr>
 <tr>
-<td title='test.CarLoan.CarDhekhoLogin()'><b>CarDhekhoLogin</b><br>Test class: test.CarLoan<br>Parameters: null, null<br/>
-<a href="#Output-504858437" onClick='toggleBox("Output-504858437", this, "Show output", "Hide output");'>Show output</a>
+<td title='test.CarLoan.WebLoginCarLoan()'><b>WebLoginCarLoan</b><br>Test class: test.CarLoan<br/>
+<a href="#Output-1870986130" onClick='toggleBox("Output-1870986130", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-504858437" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-504858437">
-null<br/>
-null<br/>
+<a href="#Output-1870986130" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1870986130">
+Web_Car<br/>
 </div>
 </td>
 <td></td>
 <td>0</td>
-<td>test.CarLoan@35ef1869</td></tr>
+<td>test.CarLoan@c33b74f</td></tr>
 <tr>
 <td title='test.CarLoan.CarDhekhoLogin()'><b>CarDhekhoLogin</b><br>Test class: test.CarLoan<br>Parameters: firstusername, fisrtpassword<br/>
-<a href="#Output-2129144075" onClick='toggleBox("Output-2129144075", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1033223458" onClick='toggleBox("Output-1033223458", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-2129144075" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-2129144075">
+<a href="#Output-1033223458" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1033223458">
 firstusername<br/>
 fisrtpassword<br/>
 </div>
 </td>
 <td></td>
 <td>0</td>
-<td>test.CarLoan@35ef1869</td></tr>
+<td>test.CarLoan@c33b74f</td></tr>
 <tr>
-<td title='test.HomeLoan.WebLoginHomeLoan()'><b>WebLoginHomeLoan</b><br>Test class: test.HomeLoan<br>Parameters: qaacademy.com<br/>
-<a href="#Output-1708169732" onClick='toggleBox("Output-1708169732", this, "Show output", "Hide output");'>Show output</a>
+<td title='test.CarLoan.CarDhekhoLogin()'><b>CarDhekhoLogin</b><br>Test class: test.CarLoan<br>Parameters: secondusername, secondpassword<br/>
+<a href="#Output-26035397" onClick='toggleBox("Output-26035397", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1708169732" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1708169732">
-qaacademy.com<br/>
+<a href="#Output-26035397" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-26035397">
+secondusername<br/>
+secondpassword<br/>
 </div>
 </td>
 <td></td>
 <td>0</td>
-<td>test.HomeLoan@3c407114</td></tr>
-<tr>
-<td title='test.Remo.m2()'><b>m2</b><br>Test class: test.Remo<br/>
-<a href="#Output-2109798150" onClick='toggleBox("Output-2109798150", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-2109798150" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-2109798150">
-Remo<br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>test.Remo@647e447</td></tr>
+<td>test.CarLoan@c33b74f</td></tr>
 <tr>
 <td title='test.Demo.m1()'><b>m1</b><br>Test class: test.Demo<br/>
-<a href="#Output-2079179914" onClick='toggleBox("Output-2079179914", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-260828066" onClick='toggleBox("Output-260828066", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-2079179914" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-2079179914">
+<a href="#Output-260828066" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-260828066">
 Hi<br/>
 </div>
 </td>
 <td></td>
 <td>0</td>
-<td>test.Demo@39529185</td></tr>
+<td>test.Demo@72f926e6</td></tr>
 <tr>
-<td title='test.Demo.m2()'><b>m2</b><br>Test class: test.Demo<br/>
-<a href="#Output-1867139015" onClick='toggleBox("Output-1867139015", this, "Show output", "Hide output");'>Show output</a>
+<td title='test.HomeLoan.WebLoginHomeLoan()'><b>WebLoginHomeLoan</b><br>Test class: test.HomeLoan<br/>
+<a href="#Output-412284571" onClick='toggleBox("Output-412284571", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1867139015" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1867139015">
-Hello<br/>
+<a href="#Output-412284571" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-412284571">
+Web_Home<br/>
 </div>
 </td>
 <td></td>
 <td>0</td>
-<td>test.Demo@39529185</td></tr>
+<td>test.HomeLoan@35ef1869</td></tr>
 <tr>
-<td title='test.CarLoan.WebLoginCarLoan()'><b>WebLoginCarLoan</b><br>Test class: test.CarLoan<br/>
-<a href="#Output-931675031" onClick='toggleBox("Output-931675031", this, "Show output", "Hide output");'>Show output</a>
+<td title='test.CarLoan.CarDhekhoLogin()'><b>CarDhekhoLogin</b><br>Test class: test.CarLoan<br>Parameters: thirdusername, thirdpassword<br/>
+<a href="#Output-604197822" onClick='toggleBox("Output-604197822", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-931675031" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-931675031">
-Web_Car<br/>
+<a href="#Output-604197822" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-604197822">
+thirdusername<br/>
+thirdpassword<br/>
 </div>
 </td>
 <td></td>
 <td>0</td>
-<td>test.CarLoan@35ef1869</td></tr>
+<td>test.CarLoan@c33b74f</td></tr>
 </table><p>
 </body>
 </html>
